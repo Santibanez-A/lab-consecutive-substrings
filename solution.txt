@@ -1,2 +1,23 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+Solution Description:
+
+This solution uses nested loops to find all consecutive substrings in a string.
+
+The first loop picks the starting position.
+The second loop picks the ending position.
+
+slice() is used to create each substring, and each substring is added to the result array.
+
+Example:
+"abc" returns:
+"a", "ab", "abc", "b", "bc", "c"
+
+Time Complexity:
+O(n^2)
+
+The nested loops check all possible consecutive substrings.
+
+Space Complexity:
+O(n^2)
+
+The array stores all substrings.
+-AS.
