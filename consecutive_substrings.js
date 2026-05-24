@@ -12,7 +12,7 @@ function consecutiveSubstrings(string) {
 }
 
 if (require.main === module) {
-  // add your own tests in here
+
   console.log("Expecting: ['a', 'ab', 'abc', 'b', 'bc', 'c']");
   console.log("=>", consecutiveSubstrings('abc'));
 
